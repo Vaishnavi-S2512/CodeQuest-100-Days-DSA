@@ -1,4 +1,3 @@
-import re
 def longestword(sentence):
     words = sentence.split()
     maxlength = 0

@@ -6,5 +6,5 @@ def word_freq(para):
     for word,count in freq.items():
             print(f"{word}:{count}")
 
-sentence = input("Enter text: ")
-word_freq(sentence)
+para = input("Enter text: ")
+word_freq(para)
